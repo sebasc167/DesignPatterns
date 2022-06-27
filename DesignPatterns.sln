@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{1D21E995-D70C-4561-8E21-150CB3B7FBCC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{66AAFB18-3640-4DDF-9C87-A40281F6F090}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{A202F54A-6798-4777-86E7-4AEAD515024D}"
@@ -25,19 +23,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{3C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{946D07EF-EA23-4D79-87F4-36D20941A0B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{27F4486B-D102-4487-B999-BD33F47F879E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{27F4486B-D102-4487-B999-BD33F47F879E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{8D143A21-71E5-402B-8382-F00AFAE47DD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{8D143A21-71E5-402B-8382-F00AFAE47DD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{84F884B8-E9AE-49F6-8398-72929507440B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{84F884B8-E9AE-49F6-8398-72929507440B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{7DB191FA-3B77-4D89-BB6A-70713B09455C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{7DB191FA-3B77-4D89-BB6A-70713B09455C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{C551895D-696A-4C35-93F2-7E39D876B1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{C551895D-696A-4C35-93F2-7E39D876B1CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{CD7C390B-FD1B-4A57-A53D-D363BBF2F376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{CD7C390B-FD1B-4A57-A53D-D363BBF2F376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{7016F9A4-329C-412F-A92A-A30CF663E94E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{7016F9A4-329C-412F-A92A-A30CF663E94E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5E5AD2C0-EA93-435C-9331-84E141ADF14C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D508F4FD-F285-47BB-B0F5-003D7BF9C6F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +47,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D21E995-D70C-4561-8E21-150CB3B7FBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D21E995-D70C-4561-8E21-150CB3B7FBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D21E995-D70C-4561-8E21-150CB3B7FBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D21E995-D70C-4561-8E21-150CB3B7FBCC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27F4486B-D102-4487-B999-BD33F47F879E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{27F4486B-D102-4487-B999-BD33F47F879E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27F4486B-D102-4487-B999-BD33F47F879E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -82,6 +80,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{66AAFB18-3640-4DDF-9C87-A40281F6F090} = {D508F4FD-F285-47BB-B0F5-003D7BF9C6F7}
+		{A202F54A-6798-4777-86E7-4AEAD515024D} = {D508F4FD-F285-47BB-B0F5-003D7BF9C6F7}
+		{34463DDA-704E-40ED-88F4-6715C2467DCD} = {D508F4FD-F285-47BB-B0F5-003D7BF9C6F7}
 		{2FCCBEF6-340D-4D9B-8F49-876BCBDD85AD} = {66AAFB18-3640-4DDF-9C87-A40281F6F090}
 		{1DFD36C8-7A54-420E-8F60-915FC633CCD3} = {66AAFB18-3640-4DDF-9C87-A40281F6F090}
 		{F2BF667F-A02B-4910-A77B-5F2F5D778E56} = {A202F54A-6798-4777-86E7-4AEAD515024D}
