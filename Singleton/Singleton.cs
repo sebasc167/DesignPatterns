@@ -19,11 +19,14 @@ namespace Singleton
         {
           
         }
+        // Here we get the only instance of the Singleton
+        // we return the instance here!
         public static Singleton getInstance()
         {
             //if we do not initialize up top we do it here
             return instance;
         }
+        //Just a random method to talk about the object!
         public void showName()
         {
             Console.WriteLine("This is a Singleton");
