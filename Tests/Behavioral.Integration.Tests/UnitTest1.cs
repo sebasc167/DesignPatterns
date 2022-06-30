@@ -1,13 +1,10 @@
-
-namespace Creational.UnitTests
+namespace Behavioral.Integration.Tests
 {
     public class Tests
     {
         [SetUp]
         public void Setup()
         {
-            //here we can setup the singleton object for testing
-            
         }
 
         [Test]
