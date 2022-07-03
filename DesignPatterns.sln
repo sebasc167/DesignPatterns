@@ -23,31 +23,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{3C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{946D07EF-EA23-4D79-87F4-36D20941A0B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{27F4486B-D102-4487-B999-BD33F47F879E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "src\Creational\Singleton\Singleton.csproj", "{27F4486B-D102-4487-B999-BD33F47F879E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{8D143A21-71E5-402B-8382-F00AFAE47DD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "src\Creational\Factory\Factory.csproj", "{8D143A21-71E5-402B-8382-F00AFAE47DD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{84F884B8-E9AE-49F6-8398-72929507440B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "src\Behavioral\Decorator\Decorator.csproj", "{84F884B8-E9AE-49F6-8398-72929507440B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{7DB191FA-3B77-4D89-BB6A-70713B09455C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "src\Behavioral\Command\Command.csproj", "{7DB191FA-3B77-4D89-BB6A-70713B09455C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{C551895D-696A-4C35-93F2-7E39D876B1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "src\Behavioral\Strategy\Strategy.csproj", "{C551895D-696A-4C35-93F2-7E39D876B1CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{CD7C390B-FD1B-4A57-A53D-D363BBF2F376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "src\Behavioral\Template\Template.csproj", "{CD7C390B-FD1B-4A57-A53D-D363BBF2F376}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{7016F9A4-329C-412F-A92A-A30CF663E94E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "src\Structural\Adapter\Adapter.csproj", "{7016F9A4-329C-412F-A92A-A30CF663E94E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5E5AD2C0-EA93-435C-9331-84E141ADF14C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D508F4FD-F285-47BB-B0F5-003D7BF9C6F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.Unit.Tests", "Creational.Unit.Tests\Creational.Unit.Tests.csproj", "{84878AE4-96E5-4B05-BB9D-CF17A781D937}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.Unit.Tests", "Tests\Creational.Unit.Tests\Creational.Unit.Tests.csproj", "{84878AE4-96E5-4B05-BB9D-CF17A781D937}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Unit.Tests", "Behavioral.Unit.Tests\Behavioral.Unit.Tests.csproj", "{A37828D1-A47B-4D65-8998-71346B9E7034}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Unit.Tests", "Tests\Behavioral.Unit.Tests\Behavioral.Unit.Tests.csproj", "{A37828D1-A47B-4D65-8998-71346B9E7034}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Unit.Tests", "Structural.Unit.Tests\Structural.Unit.Tests.csproj", "{0B6F0AE0-F3F2-4CCD-AA98-D0C09FD60EDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Unit.Tests", "Tests\Structural.Unit.Tests\Structural.Unit.Tests.csproj", "{0B6F0AE0-F3F2-4CCD-AA98-D0C09FD60EDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Integration.Tests", "Behavioral.Integration.Tests\Behavioral.Integration.Tests.csproj", "{32928CB1-626C-4C92-8297-678C1BF9A737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Integration.Tests", "Tests\Behavioral.Integration.Tests\Behavioral.Integration.Tests.csproj", "{32928CB1-626C-4C92-8297-678C1BF9A737}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Integration.Tests", "Tests\Creational.Integration.Tests\Creational.Integration.Tests.csproj", "{29294024-51AA-4AC7-8BB4-498E0FB317C9}"
 EndProject
