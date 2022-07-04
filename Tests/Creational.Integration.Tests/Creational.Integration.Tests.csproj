@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Creational\Factory\Factory.csproj" />
     <ProjectReference Include="..\..\src\Creational\Singleton\Singleton.csproj" />
   </ItemGroup>
 
