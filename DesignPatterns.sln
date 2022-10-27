@@ -49,9 +49,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Unit.Tests", "Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral.Integration.Tests", "Tests\Behavioral.Integration.Tests\Behavioral.Integration.Tests.csproj", "{32928CB1-626C-4C92-8297-678C1BF9A737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creational.Integration.Tests", "Tests\Creational.Integration.Tests\Creational.Integration.Tests.csproj", "{29294024-51AA-4AC7-8BB4-498E0FB317C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational.Integration.Tests", "Tests\Creational.Integration.Tests\Creational.Integration.Tests.csproj", "{29294024-51AA-4AC7-8BB4-498E0FB317C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Integration.Tests", "Tests\Structural.Integration.Tests\Structural.Integration.Tests.csproj", "{38FE0419-AEF5-4537-AB22-003626B958CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural.Integration.Tests", "Tests\Structural.Integration.Tests\Structural.Integration.Tests.csproj", "{38FE0419-AEF5-4537-AB22-003626B958CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{B59E8C38-8503-496F-BCB5-6A03FB2DACA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "src\Structural\Facade\Facade\Facade.csproj", "{C020AD7E-2417-4264-B05C-B7173D8303B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,10 @@ Global
 		{38FE0419-AEF5-4537-AB22-003626B958CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FE0419-AEF5-4537-AB22-003626B958CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FE0419-AEF5-4537-AB22-003626B958CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C020AD7E-2417-4264-B05C-B7173D8303B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C020AD7E-2417-4264-B05C-B7173D8303B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C020AD7E-2417-4264-B05C-B7173D8303B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C020AD7E-2417-4264-B05C-B7173D8303B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +147,8 @@ Global
 		{32928CB1-626C-4C92-8297-678C1BF9A737} = {5E5AD2C0-EA93-435C-9331-84E141ADF14C}
 		{29294024-51AA-4AC7-8BB4-498E0FB317C9} = {5E5AD2C0-EA93-435C-9331-84E141ADF14C}
 		{38FE0419-AEF5-4537-AB22-003626B958CE} = {5E5AD2C0-EA93-435C-9331-84E141ADF14C}
+		{B59E8C38-8503-496F-BCB5-6A03FB2DACA0} = {A202F54A-6798-4777-86E7-4AEAD515024D}
+		{C020AD7E-2417-4264-B05C-B7173D8303B2} = {B59E8C38-8503-496F-BCB5-6A03FB2DACA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85A5DA69-6C01-440D-A211-E027A8C6B38C}
